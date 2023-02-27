@@ -1,0 +1,15 @@
+.side {
+  height: 100vh;
+  background-color: #fff !important;
+  .logo {
+    height: 60px;
+    line-height: 90px;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+    img {
+      height: 32px;
+      display: inline-block;
+    }
+  }
+}

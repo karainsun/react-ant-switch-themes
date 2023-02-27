@@ -1,0 +1,19 @@
+.header {
+  height: 100%;
+  padding-inline: 30px !important;
+  background-color: #fff !important;
+}
+.themeBox {
+  display: flex;
+  span {
+    width: 36px;
+    height: 36px;
+    margin-right: 6px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 0 10px 1px rgba(0, 0, 0, .2);
+    }
+  }
+}
